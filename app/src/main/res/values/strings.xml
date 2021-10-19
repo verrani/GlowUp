@@ -2,6 +2,10 @@
     <string name="app_name">SplashScreen</string>
     <string name="home">Home</string>
     <string name="splash_screen">Splash Screen</string>
-    <string name="welcome">Welcome</string>
     <string name="ask_fm_v001_0">Ask.fm v001.0</string>
+    <string name="logo">TODO</string>
+    <string name="hi_beauty">Hi Beauty,</string>
+    <string name="logoo">TODO</string>
+    <string name="welcome">Welcome!</string>
+    <string name="name">Enter Your Name</string>
 </resources>
