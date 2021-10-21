@@ -2,6 +2,7 @@ package com.example.splashscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.wifi.hotspot2.pps.HomeSp;
 import android.os.Bundle;
 import android.content.Intent;
 import android.os.Handler;
