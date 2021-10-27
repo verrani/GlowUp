@@ -31,4 +31,17 @@
     <string name="enter_your_email_or_username">Enter Your Email or Username</string>
     <string name="login">Login</string>
     <string name="logologin">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="your_reminder">Your Reminder</string>
+    <string name="newest_article">Newest Article</string>
+    <string name="home_icon">home_icon</string>
+    <string name="tipsntrict_icon">tipsntrict_icon</string>
+    <string name="journal_icon">journal_icon</string>
+    <string name="profile_icon">profile_icon</string>
+    <string name="image_slider">image_slider</string>
+    <string name="beauty_timer">beauty_timer</string>
+    <string name="beauty_calendar">beauty_calendar</string>
+    <string name="reminder">reminder</string>
+    <string name="beauty_playlist">beauty_playlist</string>
+    <string name="new_article">new_article</string>
 </resources>

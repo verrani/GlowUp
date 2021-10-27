@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFEAFE"
+    android:onClick="MoveLayout"
     tools:context=".ActivityLogin">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_marginStart="148dp"
         android:layout_marginTop="76dp"
         android:fontFamily="@font/poppins_light"
+        android:gravity="center"
         android:text="@string/hi_beautyy"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -26,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="108dp"
         android:fontFamily="@font/poppins_light"
+        android:gravity="center"
         android:text="@string/welcome_again"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -38,10 +41,10 @@
         android:layout_height="849dp"
         android:layout_marginEnd="-40dp"
         android:layout_marginBottom="31dp"
+        android:contentDescription="@string/logologin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/logoglowup"
-        android:contentDescription="@string/logologin" />
+        app:srcCompat="@drawable/logoglowup" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -53,13 +56,13 @@
         android:ems="10"
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/enter_your_email_or_username"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -71,13 +74,13 @@
         android:ems="10"
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/password"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
@@ -87,6 +90,7 @@
         android:layout_marginBottom="64dp"
         android:backgroundTint="#FEB0FB"
         android:fontFamily="@font/poppins_light"
+        android:onClick="MoveLayout"
         android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
