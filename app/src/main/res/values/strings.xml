@@ -44,4 +44,31 @@
     <string name="reminder">reminder</string>
     <string name="beauty_playlist">beauty_playlist</string>
     <string name="new_article">new_article</string>
+    <string name="tipstricks">Tips & Tricks</string>
+    <string name="category2">Skincare</string>
+    <string name="author2">Lala Franka</string>
+    <string name="title_article2">Simple Night Skincare Routine, Amazing Results!</string>
+    <string name="date2">30 Apr 2021</string>
+    <string name="category3">Hair Care</string>
+    <string name="title_article3">Popular Among Career Women, Tips for Looking Elegant with your Hair</string>
+    <string name="author3">Sheira Moe</string>
+    <string name="date3">1 Mei 2021</string>
+    <string name="category4">Body Care</string>
+    <string name="title_article4">Prevent Dry Skin During Fasting, These 5 Fruits That Can Hydrate the Body</string>
+    <string name="author4">Dena Olivia</string>
+    <string name="date4">22 Mei 2021</string>
+    <string name="article">Article - Tips & Tricks</string>
+    <string name="title">Makeup Tips To Make Your Face Look Fresh and Pale Free When Fasting</string>
+    <string name="category">Make Up</string>
+    <string name="author">Tiara Jehanly Biancaa</string>
+    <string name="date">27 Apr 2021</string>
+    <string name="photo"> </string>
+    <string name="description">Glow Up - Make Up When Fasting</string>
+    <string name="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium, magna ac varius tincidunt, sapien nunc porttitor ligula, in lobortis orci nulla quis lectus. Nullam nec nisl cursus, sollicitudin lacus facilisis, finibus sapien. Nullam nunc ante, aliquet vel euismod vitae, bibendum vel justo. Vestibulum interdum egestas risus, ut sollicitudin urna iaculis a. Vivamus vestibulum, nunc in sollicitudin faucibus, metus neque elementum magna, quis varius purus augue at augue. Donec maximus scelerisque risus id pulvinar. Sed dapibus metus ligula, non faucibus ante eleifend vel. Suspendisse a augue quam. In malesuada purus ac nisi dapibus, non suscipit sem viverra. Curabitur a aliquam ipsum. Proin gravida porttitor risus, at finibus quam interdum in. Fusce facilisis lobortis nisl, ac laoreet turpis molestie a. Vestibulum mollis ut sapien eget rhoncus. Morbi at orci sit amet urna finibus suscipit.
+Phasellus ut enim mauris. Etiam pharetra lobortis tortor nec iaculis. In eget massa quis lacus fringilla ornare vel sed libero. Morbi tincidunt pulvinar ultricies. Nullam dignissim faucibus mattis. Vestibulum ullamcorper, arcu a pellentesque imperdiet, nibh magna condimentum orci, nec rutrum nisl lectus ac erat. Aenean efficitur eu nisi a sollicitudin. Curabitur lobortis finibus cursus. Quisque sodales laoreet lacus, sed molestie lorem ullamcorper ut. Cras quam ex, iaculis nec velit at, commodo luctus justo. Nulla nec nibh sit amet velit tristique maximus eu non velit. Proin suscipit risus vitae convallis blandit. Nullam dignissim augue urna, a vehicula leo condimentum non. Vestibulum id varius dui. In fermentum non urna eget convallis. Curabitur sit amet placerat diam.
+Ut tempus lacinia magna vel tempus. Nulla semper, ante vitae venenatis volutpat, ipsum dui viverra mauris, vel interdum mi elit a magna. Maecenas blandit erat ut nibh pharetra, non gravida libero pharetra. Praesent tristique tincidunt tincidunt. Donec ac risus rutrum, egestas justo at, dictum leo. Suspendisse varius, arcu non pulvinar egestas, turpis elit elementum quam, vitae convallis turpis ante a erat. Praesent et leo ut magna aliquet mollis eget nec massa. Nunc turpis nunc, gravida sed leo quis, eleifend bibendum mauris. Aliquam erat volutpat. Phasellus a dui diam.
+Nulla vitae ante tincidunt, pharetra ante in, volutpat ex. In ac massa libero. Nunc imperdiet diam ac nibh blandit, pulvinar ornare diam fringilla. Ut ultrices bibendum augue, sit amet efficitur dui tincidunt sit amet. Nullam ut erat ultricies, facilisis turpis at, malesuada sapien. Etiam imperdiet consectetur dui sed fermentum. Ut sit amet neque vestibulum, rhoncus tellus sit amet, sagittis magna.
+Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices risus, in vulputate nulla. Aliquam eu efficitur elit. Duis tincidunt arcu sit amet lorem mollis, at laoreet purus euismod. Sed eu mattis elit, nec fringilla eros. Maecenas sagittis lorem arcu, eget aliquam eros dapibus a. Quisque nec arcu interdum, vehicula lacus eu, imperdiet quam. Phasellus tincidunt auctor nulla. Sed scelerisque egestas dui, sed elementum quam laoreet ultricies. Integer pellentesque nisi ut tortor blandit pretium. Proin vitae maximus dui. Nullam semper, sem a lobortis vulputate, dolor eros sollicitudin lectus, et maximus ex dolor eu felis. Donec ullamcorper metus quam, sit amet facilisis velit congue et. Duis sit amet metus mattis, convallis nibh at, tempor enim. Suspendisse nec enim a lorem condimentum venenatis.</string>
+
+
 </resources>
