@@ -17,4 +17,8 @@ public class homepage extends AppCompatActivity {
         Intent intent = new Intent(homepage.this, TipsnTricks.class);
         startActivity(intent);
     }
+    public void CalendarLayout(View view) {
+        Intent intent = new Intent(homepage.this, BeautyCalendar.class);
+        startActivity(intent);
+    }
 }

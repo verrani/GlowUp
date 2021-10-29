@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".BeautyCalendar"
+            android:exported="true" />
+        <activity
             android:name=".Article"
             android:exported="true" />
         <activity

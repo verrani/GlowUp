@@ -69,6 +69,11 @@ Phasellus ut enim mauris. Etiam pharetra lobortis tortor nec iaculis. In eget ma
 Ut tempus lacinia magna vel tempus. Nulla semper, ante vitae venenatis volutpat, ipsum dui viverra mauris, vel interdum mi elit a magna. Maecenas blandit erat ut nibh pharetra, non gravida libero pharetra. Praesent tristique tincidunt tincidunt. Donec ac risus rutrum, egestas justo at, dictum leo. Suspendisse varius, arcu non pulvinar egestas, turpis elit elementum quam, vitae convallis turpis ante a erat. Praesent et leo ut magna aliquet mollis eget nec massa. Nunc turpis nunc, gravida sed leo quis, eleifend bibendum mauris. Aliquam erat volutpat. Phasellus a dui diam.
 Nulla vitae ante tincidunt, pharetra ante in, volutpat ex. In ac massa libero. Nunc imperdiet diam ac nibh blandit, pulvinar ornare diam fringilla. Ut ultrices bibendum augue, sit amet efficitur dui tincidunt sit amet. Nullam ut erat ultricies, facilisis turpis at, malesuada sapien. Etiam imperdiet consectetur dui sed fermentum. Ut sit amet neque vestibulum, rhoncus tellus sit amet, sagittis magna.
 Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices risus, in vulputate nulla. Aliquam eu efficitur elit. Duis tincidunt arcu sit amet lorem mollis, at laoreet purus euismod. Sed eu mattis elit, nec fringilla eros. Maecenas sagittis lorem arcu, eget aliquam eros dapibus a. Quisque nec arcu interdum, vehicula lacus eu, imperdiet quam. Phasellus tincidunt auctor nulla. Sed scelerisque egestas dui, sed elementum quam laoreet ultricies. Integer pellentesque nisi ut tortor blandit pretium. Proin vitae maximus dui. Nullam semper, sem a lobortis vulputate, dolor eros sollicitudin lectus, et maximus ex dolor eu felis. Donec ullamcorper metus quam, sit amet facilisis velit congue et. Duis sit amet metus mattis, convallis nibh at, tempor enim. Suspendisse nec enim a lorem condimentum venenatis.</string>
+    <string name="beauty_calendartext">Beauty Calendar</string>
+    <string name="buttonplus">+</string>
+    <string name="exfoliate">Exfoliate</string>
+    <string name="face_yoga">Face Yoga</string>
+    <string name="sheet_mask">Sheet Mask</string>
 
 
 </resources>
