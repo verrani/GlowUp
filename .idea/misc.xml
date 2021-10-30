@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/btn_shape_round.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/circle.xml" value="0.18981481481481483" />
-        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_beauty_calendar.xml" value="0.6" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/greencircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/orangecircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/yellowcircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_beauty_calendar.xml" value="0.264" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_homepage.xml" value="0.11503623188405797" />
-        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_tipsn_tricks.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_tipsn_tricks.xml" value="0.4" />
       </map>
     </option>
   </component>

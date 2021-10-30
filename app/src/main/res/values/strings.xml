@@ -74,6 +74,10 @@ Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices r
     <string name="exfoliate">Exfoliate</string>
     <string name="face_yoga">Face Yoga</string>
     <string name="sheet_mask">Sheet Mask</string>
+    <string name="add_routines">Add Routines</string>
+    <string name="_9_00_3_every">9 : 00 / 3 Every</string>
+    <string name="_9_00_4_every">9 : 00 / 4 Every</string>
+    <string name="_9_00_6_every">9 : 00 / 6 Every</string>
 
 
 </resources>
