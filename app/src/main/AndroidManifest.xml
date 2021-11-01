@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
             android:name=".ProfileAccount"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".BeautyCalendar"
             android:exported="true" />

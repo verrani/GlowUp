@@ -13,10 +13,6 @@ public class ProfileAccount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
 
-    public void HomeLayout(View view) {
-        Intent intent = new Intent(ProfileAccount.this, homepage.class);
-        startActivity(intent);
-    }
 
 }
 
