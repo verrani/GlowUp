@@ -21,4 +21,9 @@ public class homepage extends AppCompatActivity {
         Intent intent = new Intent(homepage.this, BeautyCalendar.class);
         startActivity(intent);
     }
+
+    public void ProfileLayout(View view) {
+        Intent intent = new Intent(homepage.this, ProfileAccount.class);
+        startActivity(intent);
+    }
 }

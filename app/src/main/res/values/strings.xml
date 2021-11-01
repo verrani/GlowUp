@@ -80,4 +80,15 @@ Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices r
     <string name="_9_00_6_every">9 : 00 / 6 Every</string>
 
 
+    <string name="putri_aisyah_gmail_com">putri.aisyah@gmail.com</string>
+    <string name="aisyahptr">aisyahptr</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_us">About Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="slash"><![CDATA[<]]></string>
+    <string name="profile_account">Profile Account</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+
 </resources>
