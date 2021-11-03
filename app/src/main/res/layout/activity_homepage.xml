@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:contentDescription="@string/tipsntrict_icon"
+            android:onClick="MoveLayout"
             app:srcCompat="@drawable/tipsntrick" />
 
         <ImageView
@@ -50,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:contentDescription="@string/profile_icon"
+            android:onClick="ProfileLayout"
             app:srcCompat="@drawable/profile"
             tools:ignore="ImageContrastCheck" />
 
@@ -97,6 +99,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:contentDescription="@string/beauty_calendar"
+                    android:onClick="CalendarLayout"
                     app:srcCompat="@drawable/calendar" />
 
                 <ImageView
@@ -144,6 +147,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/new_article"
+                android:onClick="MoveLayout"
                 app:srcCompat="@drawable/imageslider"
                 tools:ignore="ImageContrastCheck" />
         </LinearLayout>

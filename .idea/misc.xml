@@ -3,31 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup1/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1078125" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup1/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup1/app/src/main/res/layout/activity_home2.xml" value="0.209375" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup1/app/src/main/res/layout/activity_login.xml" value="0.125" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup1/app/src/main/res/layout/activity_login2.xml" value="0.125" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup2/GlowUp/app/src/main/res/layout/activity_home.xml" value="0.125" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup2/GlowUp/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/1/glowup2/GlowUp/app/src/main/res/layout/activity_main.xml" value="0.125" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/GlowUp/app/src/main/res/drawable/splash_bg.xml" value="0.22552083333333334" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/GlowUp/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/teslagi/GlowUp/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
-        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
-        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
-        <entry key="..\:/Users/mefah/AndroidStudioProjects/SplashScreen/app/src/main/res/drawable/splash_bg.xml" value="0.22916666666666666" />
-        <entry key="..\:/Users/mefah/AndroidStudioProjects/SplashScreen/app/src/main/res/layout/activity_home.xml" value="0.16" />
-        <entry key="..\:/Users/mefah/AndroidStudioProjects/SplashScreen/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/drawable/splash_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/btn_shape_round.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/circle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/greencircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/orangecircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/yellowcircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_beauty_calendar.xml" value="0.264" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_homepage.xml" value="0.11503623188405797" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_profile.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_tipsn_tricks.xml" value="0.4" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
