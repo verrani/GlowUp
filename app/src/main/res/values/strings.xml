@@ -90,5 +90,9 @@ Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices r
     <string name="profile_account">Profile Account</string>
     <string name="todo2">TODO</string>
     <string name="todo3">TODO</string>
+    <string name="start">Start</string>
+    <string name="beauty_timer1">Beauty Timer</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 
 </resources>

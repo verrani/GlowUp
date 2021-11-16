@@ -14,13 +14,36 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
         android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
         android:background="#FFEAFE"
         android:text="@string/beauty_calendartext"
-        android:textSize="24sp"
         android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <!-- Add CalendarView to display the Calendar -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="HomeLayout"
+        android:text="@string/slash"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
+
     <CalendarView
         android:id="@+id/calendar"
         android:layout_width="wrap_content"

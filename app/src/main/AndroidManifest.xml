@@ -16,6 +16,9 @@
             android:name=".BeautyCalendar"
             android:exported="true" />
         <activity
+            android:name=".BeautyTimer"
+            android:exported="true" />
+        <activity
             android:name=".Article"
             android:exported="true" />
         <activity
