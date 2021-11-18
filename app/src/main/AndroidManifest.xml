@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".article_bodycare"
+            android:exported="true" />
+        <activity
+            android:name=".article_haircare"
+            android:exported="true" />
+        <activity
             android:name=".article_skincare"
             android:exported="true" />
         <activity

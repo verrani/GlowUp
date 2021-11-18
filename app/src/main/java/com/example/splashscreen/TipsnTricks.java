@@ -17,4 +17,19 @@ public class TipsnTricks extends AppCompatActivity {
         Intent intent = new Intent(TipsnTricks.this, Article.class);
         startActivity(intent);
     }
+
+    public void MoveLayout2(View view) {
+        Intent intent = new Intent(TipsnTricks.this, article_skincare.class);
+        startActivity(intent);
+    }
+
+    public void MoveLayout(View view) {
+        Intent intent = new Intent(TipsnTricks.this, article_haircare.class);
+        startActivity(intent);
+    }
+
+    public void MoveLayout(View view) {
+        Intent intent = new Intent(TipsnTricks.this, article_bodycare.class);
+        startActivity(intent);
+    }
 }

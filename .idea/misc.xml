@@ -21,6 +21,12 @@
         <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/drawable/splash_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
         <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_article.xml" value="0.25" />
+        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_article_bodycare.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_article_haircare.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_article_skincare.xml" value="0.33" />
+        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_homepage.xml" value="0.75" />
+        <entry key="..\:/Users/SU - NB0247/AndroidStudioProjects/GlowUp/app/src/main/res/layout/activity_tipsn_tricks.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/btn_shape_round.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/button_shape_grey.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/circle.xml" value="0.18981481481481483" />
@@ -37,5 +43,5 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

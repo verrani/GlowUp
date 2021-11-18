@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEAFE"
     android:padding="20dp"
     android:paddingStart="20dp"
     android:paddingTop="20dp"
-    tools:context=".Article">
+    android:background="#FFEAFE"
+    tools:context=".article_haircare">
 
     <TextView
         android:id="@+id/textView2"
@@ -40,7 +40,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
             <TextView
                 android:id="@+id/textView3"
@@ -51,7 +53,7 @@
                 android:paddingLeft="20dp"
                 android:paddingTop="20dp"
                 android:paddingEnd="20dp"
-                android:text="@string/title"
+                android:text="@string/title_article3"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="26sp" />
@@ -65,7 +67,7 @@
                 android:paddingLeft="20dp"
                 android:paddingTop="20dp"
                 android:paddingEnd="20dp"
-                android:text="@string/category"
+                android:text="@string/category3"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="16sp" />
@@ -74,7 +76,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/author"
+                android:text="@string/author3"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="19sp"
@@ -84,7 +86,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/date"
+                android:text="@string/date3"
                 android:textAlignment="center"
                 android:textColor="#000000" />
 
@@ -95,7 +97,7 @@
                 android:padding="20dp"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                app:srcCompat="@drawable/fotomakeup" />
+                app:srcCompat="@drawable/articlehair" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -106,19 +108,34 @@
                 android:paddingLeft="20dp"
                 android:paddingTop="20dp"
                 android:paddingEnd="20dp"
-                android:text="@string/description"
+                android:text="@string/description3"
                 android:textAlignment="center"
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:text="@string/content"
+                android:text="@string/content3sub1"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/content3des1"
                 android:textColor="#000000"
                 android:textSize="17sp" />
+
+            <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content3des2"
+            android:textColor="#000000"
+            android:textSize="17sp" />
 
             <ImageView
                 android:id="@+id/imageView2"
