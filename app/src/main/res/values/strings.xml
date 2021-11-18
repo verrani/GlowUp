@@ -95,5 +95,6 @@ Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices r
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
     <string name="beauty_playlist_text">Beauty Playlist</string>
+    <string name="button">Show Alert Dialog</string>
 
 </resources>
