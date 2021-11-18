@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEAFE"
     android:padding="20dp"
     android:paddingStart="20dp"
     android:paddingTop="20dp"
-    android:background="#FFEAFE"
     tools:context=".article_haircare">
 
     <TextView
@@ -41,8 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
 
             <TextView
                 android:id="@+id/textView3"
@@ -97,7 +97,7 @@
                 android:padding="20dp"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                app:srcCompat="@drawable/articlehair" />
+                app:srcCompat="@drawable/hair" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -116,6 +116,9 @@
                 android:id="@id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
                 android:text="@string/content3sub1"
                 android:textColor="#000000"
                 android:textSize="17sp"
@@ -130,12 +133,49 @@
                 android:textSize="17sp" />
 
             <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/content3des2"
-            android:textColor="#000000"
-            android:textSize="17sp" />
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/content3des2"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/content3des3"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/content3des4"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/content3des5"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/content3des6"
+                android:textColor="#000000"
+                android:textSize="17sp" />
 
             <ImageView
                 android:id="@+id/imageView2"

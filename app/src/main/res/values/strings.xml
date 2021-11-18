@@ -53,43 +53,55 @@
     <string name="content2sub1">Recommended Effective Serum for Acne Scars </string>
     <string name="content2des1">Acne can make us insecure and difficult to turn off. However, getting rid of acne scars is sometimes more difficult and longer than turning off an active pimple. To speed up the process of fading acne scars, it requires the use of proper and regular skincare. One form of skincare that can help get rid of acne scars is serum. Serums contain active ingredients and vitamins that can help get rid of acne scars.
 Here are some serums to remove acne scars or so-called acne scars that you can try.</string>
+    <string name="content2sub2">Axis-Y Dark Spot Correcting Glow Serum</string>
+    <string name="content2des2">This serum contains Niacinamide which can reduce dark spots caused by acne and improve uneven skin tone. The plant derived Squalene content in this serum can maintain skin moisture and make skin healthier and glowing. This serum also contains Glycerin, Sodium Hyaluronate, Papaya, Propanediol, Erythritol, Butylene, and Glycol ingredients. The content of Niacinamide can also relieve redness and Calendula which is anti-inflammatory. The texture of this serum is light and easy to absorb, leaving the skin feeling moist, smooth, and not sticky.</string>
+    <string name="content2sub3">Avoskin Your Skin Bae Vitamin C 3% + Niacinamide 2% + Mandarin Orange Fruit Extract Serum</string>
+    <string name="content2des3">The next serum recommendation is from the Avoskin brand. Vitamin C is known to be very effective for brightening the skin and disguising acne scars. In addition to vitamin C, the content of Niacinamide, and Mandarin Orange Extract in this serum can make our skin look brighter optimally. This serum can inhibit the production of melanin in the skin, making it effective for brightening the skin.</string>
+    <string name="content2sub4">SOMETHINC Niacinamide + Moisture Beet Serum</string>
+    <string name="content2des4">For those of you who have acne scars in the form of post-inflammatory pigmentation, you can try this serum. Contains Niacinamide which can strengthen the skin is protective layer by producing Ceramide. Beetroot content can also ward off free radicals, moisturize the skin, fade dark spots, and fight acne.</string>
+    <string name="content2sub5">Lacoco Dark Spot Essence</string>
+    <string name="content2des5">The next recommended serum to fade dark spots and acne scars is Lacoco Dark Spot Essence. This product contains tranexamic acid which has the maximum ability to fade dark spots as quickly as laser technology. Then, it contains various natural ingredients that are very safe for various types of facial skin. In addition, there are mulberry extracts that function as antioxidants for the skin, licorice extracts that function to fade black spots and acne scars and brighten the face.</string>
+    <string name="content2des6">Are you having trouble dealing with acne scars? Do not worry, try the serum recommendations for removing acne scars above.</string>
 
     <string name="category3">Hair Care</string>
     <string name="title_article3">Schedule to wash your Hair</string>
     <string name="author3">Sheira Moe</string>
     <string name="date3">1 Mei 2021</string>
-    <string name="description3">Glow Up - Hair care</string>
+    <string name="description3">Glow Up - Washing Hair</string>
     <string name="content3sub1">How often should you wash your hair </string>
     <string name="content3des1">Hair is a part of the body that needs to be cared for so that it can always be healthy. Shampooing is one of the basic things to take care of your hair by washing your hair using shampoo but washing your hair too often can cause hair damage. Here are some tips to know how often to wash your hair.</string>
-    <string name="content3des2">Oily hair: It iss best to shampoo daily to prevent the build up of oil and dirt.
-        Dryordamaged hair: Every 5-7 days to stimulate the hairs natural oils.Fine/thin hair: Shampoo daily to provide sufficient moisture to hair.
-Wavy or curly hair: Once every 4-5 days, depending on hair density
-Curly hair: Once a week for optimal hair growth.</string>
+    <string name="content3des2">Oily hair: It is best to shampoo daily to prevent the build up of oil and dirt.</string>
+    <string name="content3des3"> Dry/damaged hair: Every 5-7 days to stimulate the hairs natural oils.</string>
+    <string name="content3des4">Fine/thin hair: Shampoo daily to provide sufficient moisture to hair.</string>
+    <string name="content3des5">Wavy/curly hair: Once every 4-5 days, depending on hair density</string>
+    <string name="content3des6">Curly hair: Once a week for optimal hair growth.</string>
 
     <string name="category4">Body Care</string>
-    <string name="title_article4">Body Scrub</string>
+    <string name="title_article4">Benefit of Body Scrub</string>
     <string name="author4">Dena Olivia</string>
     <string name="date4">22 Mei 2021</string>
-    <string name="description4">Glow Up - Body care</string>
-    <string name="content4sub1">Benefit of Body Scrub</string>
+    <string name="description4">Glow Up - Body scrub</string>
     <string name="content4des1">Body scrubs are a form of exfoliation treatment. This treatment aims to remove dead skin cells from the outside while removing dust and dirt that may be trapped in the pores. skin that is not scrubbed will make the skin dull. Therefore, it is recommended to do body scrubs regularly. There are several benefits of body scrub.</string>
-    <string name="content4des2">1.	Scrub granules can remove dead skin cells.
-2.	Scrub is claimed to be able to brighten the skin.
-3.	Relax the body with body scrub granules.
-4.	Exfoliate with a body scrub to prevent the appearance of acne on the back.
-5.	Body scrub is useful to overcome cellulite and prevent premature aging.</string>
+    <string name="content4des2">1.	Scrub granules can remove dead skin cells.</string>
+    <string name="content4des3">2.	Scrub is claimed to be able to brighten the skin.</string>
+    <string name="content4des4">3.	Relax the body with body scrub granules.</string>
+    <string name="content4des5">4.	Exfoliate with a body scrub to prevent the appearance of acne on the back.</string>
+    <string name="content4des6">5.	Body scrub is useful to overcome cellulite and prevent premature aging.</string>
     <string name="article">Article - Tips n Tricks</string>
-    <string name="title">Makeup Tips To Make Your Face Look Fresh and Pale Free When Fasting</string>
+    <string name="title">How to choose a foundation to match your skin tone</string>
     <string name="category">Make Up</string>
     <string name="author">Tiara Jehanly Biancaa</string>
     <string name="date">27 Apr 2021</string>
     <string name="photo"> </string>
-    <string name="description">Glow Up - Make Up When Fasting</string>
-    <string name="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium, magna ac varius tincidunt, sapien nunc porttitor ligula, in lobortis orci nulla quis lectus. Nullam nec nisl cursus, sollicitudin lacus facilisis, finibus sapien. Nullam nunc ante, aliquet vel euismod vitae, bibendum vel justo. Vestibulum interdum egestas risus, ut sollicitudin urna iaculis a. Vivamus vestibulum, nunc in sollicitudin faucibus, metus neque elementum magna, quis varius purus augue at augue. Donec maximus scelerisque risus id pulvinar. Sed dapibus metus ligula, non faucibus ante eleifend vel. Suspendisse a augue quam. In malesuada purus ac nisi dapibus, non suscipit sem viverra. Curabitur a aliquam ipsum. Proin gravida porttitor risus, at finibus quam interdum in. Fusce facilisis lobortis nisl, ac laoreet turpis molestie a. Vestibulum mollis ut sapien eget rhoncus. Morbi at orci sit amet urna finibus suscipit.
-Phasellus ut enim mauris. Etiam pharetra lobortis tortor nec iaculis. In eget massa quis lacus fringilla ornare vel sed libero. Morbi tincidunt pulvinar ultricies. Nullam dignissim faucibus mattis. Vestibulum ullamcorper, arcu a pellentesque imperdiet, nibh magna condimentum orci, nec rutrum nisl lectus ac erat. Aenean efficitur eu nisi a sollicitudin. Curabitur lobortis finibus cursus. Quisque sodales laoreet lacus, sed molestie lorem ullamcorper ut. Cras quam ex, iaculis nec velit at, commodo luctus justo. Nulla nec nibh sit amet velit tristique maximus eu non velit. Proin suscipit risus vitae convallis blandit. Nullam dignissim augue urna, a vehicula leo condimentum non. Vestibulum id varius dui. In fermentum non urna eget convallis. Curabitur sit amet placerat diam.
-Ut tempus lacinia magna vel tempus. Nulla semper, ante vitae venenatis volutpat, ipsum dui viverra mauris, vel interdum mi elit a magna. Maecenas blandit erat ut nibh pharetra, non gravida libero pharetra. Praesent tristique tincidunt tincidunt. Donec ac risus rutrum, egestas justo at, dictum leo. Suspendisse varius, arcu non pulvinar egestas, turpis elit elementum quam, vitae convallis turpis ante a erat. Praesent et leo ut magna aliquet mollis eget nec massa. Nunc turpis nunc, gravida sed leo quis, eleifend bibendum mauris. Aliquam erat volutpat. Phasellus a dui diam.
-Nulla vitae ante tincidunt, pharetra ante in, volutpat ex. In ac massa libero. Nunc imperdiet diam ac nibh blandit, pulvinar ornare diam fringilla. Ut ultrices bibendum augue, sit amet efficitur dui tincidunt sit amet. Nullam ut erat ultricies, facilisis turpis at, malesuada sapien. Etiam imperdiet consectetur dui sed fermentum. Ut sit amet neque vestibulum, rhoncus tellus sit amet, sagittis magna.
-Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices risus, in vulputate nulla. Aliquam eu efficitur elit. Duis tincidunt arcu sit amet lorem mollis, at laoreet purus euismod. Sed eu mattis elit, nec fringilla eros. Maecenas sagittis lorem arcu, eget aliquam eros dapibus a. Quisque nec arcu interdum, vehicula lacus eu, imperdiet quam. Phasellus tincidunt auctor nulla. Sed scelerisque egestas dui, sed elementum quam laoreet ultricies. Integer pellentesque nisi ut tortor blandit pretium. Proin vitae maximus dui. Nullam semper, sem a lobortis vulputate, dolor eros sollicitudin lectus, et maximus ex dolor eu felis. Donec ullamcorper metus quam, sit amet facilisis velit congue et. Duis sit amet metus mattis, convallis nibh at, tempor enim. Suspendisse nec enim a lorem condimentum venenatis.</string>
+    <string name="description">Glow Up - Make up foundation</string>
+    <string name="content1des1">One of the must-have makeup products for women is foundation. This makeup product is very useful to make your facial skin look flawless and perfect. By applying foundation, all the flaws that exist on your facial skin such as acne scars and dark spots can be covered. However, don not make the wrong choice of foundation Here are tips for choosing a foundation.</string>
+    <string name="content1des2">1.	Know your basic skin color.</string>
+    <string name="content1des3">By knowing the basic color of your skin will make the foundation match your skin, choose a foundation color that is almost close to your skin color so that there is no color difference between foundation and severe skin.</string>
+    <string name="content1des4">2.	Choose the type of foundation that suits your skin type.</string>
+    <string name="content1des5">In addition to adjusting to skin color, you also need to choose a foundation that suits your skin type. For those of you who have oily skin types, you should not choose a foundation that is made from oily as well. But for those of you who have dry skin, you can choose a water-based foundation or one that contains a lot of moisturizers.</string>
+    <string name="content1des6">3.	Choose a lighter foundation color.</string>
+    <string name="content1des7">After a day of activities, the face that uses foundation will usually turn out to be duller or darker. This is because the foundation undergoes oxidation when exposed to heat, both hot from the sun and heat from body temperature. So, so that the foundation color remains good on the face even though it has been used all day, choose a foundation color that is one level lighter than skin color.</string>
+
     <string name="beauty_calendartext">Beauty Calendar</string>
     <string name="buttonplus">+</string>
     <string name="exfoliate">Exfoliate</string>

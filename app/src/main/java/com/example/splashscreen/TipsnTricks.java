@@ -23,4 +23,14 @@ public class TipsnTricks extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void TimerLayout(View view) {
+        Intent intent = new Intent(TipsnTricks.this, article_haircare.class);
+        startActivity(intent);
+    }
+
+    public void Playlist(View view) {
+        Intent intent = new Intent(TipsnTricks.this, article_bodycare.class);
+        startActivity(intent);
+    }
+
 }

@@ -109,6 +109,7 @@
                 android:layout_height="130dp"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="36dp"
+                android:onClick="MoveLayout2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView8"
                 app:srcCompat="@drawable/articlenight" />
@@ -167,9 +168,10 @@
                 android:layout_height="130dp"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="36dp"
+                android:onClick="TimerLayout"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView12"
-                app:srcCompat="@drawable/articlehair" />
+                app:srcCompat="@drawable/hair" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -189,7 +191,7 @@
                 android:layout_height="60dp"
                 android:layout_marginStart="26dp"
                 android:layout_marginTop="8dp"
-                android:onClick="MoveLayout"
+                android:onClick="TimerLayout"
                 android:text="@string/title_article3"
                 android:textColor="#000000"
                 android:textStyle="bold"
@@ -225,9 +227,10 @@
                 android:layout_height="130dp"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="36dp"
+                android:onClick="Playlist"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView13"
-                app:srcCompat="@drawable/body" />
+                app:srcCompat="@drawable/scrub" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -247,7 +250,7 @@
                 android:layout_height="56dp"
                 android:layout_marginStart="26dp"
                 android:layout_marginTop="8dp"
-                android:onClick="MoveLayout"
+                android:onClick="Playlist"
                 android:text="@string/title_article4"
                 android:textColor="#000000"
                 android:textStyle="bold"
