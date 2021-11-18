@@ -62,7 +62,7 @@
         android:layout_height="413dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
-        android:onClick="HappyVibes"
+        android:onClick="homepage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/happyvibes" />

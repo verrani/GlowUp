@@ -1,7 +1,9 @@
 package com.example.splashscreen;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import android.view.View;
 import android.widget.CalendarView;
 import android.widget.TextView;
 
@@ -59,5 +61,9 @@ public class BeautyCalendar extends AppCompatActivity {
                                 date_view.setText(Date);
                             }
                         });
+    }
+    public void homepagecalendar(View view) {
+        Intent intent = new Intent(BeautyCalendar.this, homepage.class);
+        startActivity(intent);
     }
 }

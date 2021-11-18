@@ -38,5 +38,9 @@ public class ProfileAccount extends AppCompatActivity {
         alertDialog.show();
     }
 
+    public void homepageprofile(View view) {
+        Intent intent = new Intent(ProfileAccount.this, homepage.class);
+        startActivity(intent);
+    }
 
 }

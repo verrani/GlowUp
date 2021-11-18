@@ -1,6 +1,8 @@
 package com.example.splashscreen;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Handler;
 import android.view.View;
 import java.util.Locale;
@@ -164,5 +166,9 @@ public class BeautyTimer extends AppCompatActivity {
                 handler.postDelayed(this, 1000);
             }
         });
+    }
+    public void homepagetimer(View view) {
+        Intent intent = new Intent(BeautyTimer.this, homepage.class);
+        startActivity(intent);
     }
 }
