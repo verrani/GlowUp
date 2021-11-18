@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.splashscreen">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".article_skincare"
+            android:exported="true" />
+        <activity
+            android:name=".StudyMask"
+            android:exported="true" />
+        <activity
+            android:name=".OldVibes"
+            android:exported="true" />
+        <activity
+            android:name=".HappyVibes"
+            android:exported="true" />
+        <activity
+            android:name=".Playlist"
+            android:exported="true" />
         <activity
             android:name=".ProfileAccount"
             android:exported="true" />

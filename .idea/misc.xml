@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_article.xml" value="0.25" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_beauty_calendar.xml" value="0.17" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_beauty_timer.xml" value="0.1118659420289855" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_happy_vibes.xml" value="0.1118659420289855" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_home.xml" value="0.1118659420289855" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_homepage.xml" value="0.1118659420289855" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_old_vibes.xml" value="0.1118659420289855" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_playlist.xml" value="0.25" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_study_mask.xml" value="0.1118659420289855" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/layout/activity_tipsn_tricks.xml" value="0.25" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SU - NB0165/AndroidStudioProjects/GlowUp/Glow1/GlowUp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/drawable/splash_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
         <entry key="..\:/Users/SU - NB0181/AndroidStudioProjects/Clone1/Gloww/app/src/main/res/layout/activity_profile.xml" value="0.18" />
@@ -22,5 +37,5 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

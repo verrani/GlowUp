@@ -13,12 +13,10 @@ public class ProfileAccount extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
     }
 
-    public void HomeLayout(View view) {
+    public void homepage(View view) {
         Intent intent = new Intent(ProfileAccount.this, homepage.class);
         startActivity(intent);
-
     }
 }

@@ -29,4 +29,8 @@ public class homepage extends AppCompatActivity {
         Intent intent = new Intent(homepage.this, BeautyTimer.class);
         startActivity(intent);
     }
+    public void Playlist(View view) {
+        Intent intent = new Intent(homepage.this, Playlist.class);
+        startActivity(intent);
+    }
 }

@@ -91,6 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:contentDescription="@string/beauty_playlist"
+                    android:onClick="Playlist"
                     app:srcCompat="@drawable/playlist" />
 
                 <ImageView

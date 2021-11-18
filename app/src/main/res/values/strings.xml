@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SplashScreen</string>
+    <string name="app_name">GlowUp</string>
     <string name="home">Home</string>
     <string name="splash_screen">Splash Screen</string>
     <string name="ask_fm_v001_0">Ask.fm v001.0</string>
@@ -94,5 +94,6 @@ Duis facilisis nunc velit. Etiam semper tempor vehicula. Integer quis ultrices r
     <string name="beauty_timer1">Beauty Timer</string>
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
+    <string name="beauty_playlist_text">Beauty Playlist</string>
 
 </resources>
