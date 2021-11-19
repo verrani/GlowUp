@@ -100,7 +100,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:contentDescription="@string/beauty_calendar"
-                    android:onClick="CalendarLayout"
                     app:srcCompat="@drawable/calendar" />
 
                 <ImageView

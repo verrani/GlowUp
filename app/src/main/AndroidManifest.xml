@@ -36,9 +36,6 @@
             android:name=".ProfileAccount"
             android:exported="true" />
         <activity
-            android:name=".BeautyCalendar"
-            android:exported="true" />
-        <activity
             android:name=".BeautyTimer"
             android:exported="true" />
         <activity
