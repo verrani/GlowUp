@@ -42,5 +42,9 @@ public class ProfileAccount extends AppCompatActivity {
         Intent intent = new Intent(ProfileAccount.this, homepage.class);
         startActivity(intent);
     }
+    public void aboutus(View view) {
+        Intent intent = new Intent(ProfileAccount.this,AboutUs.class);
+        startActivity(intent);
+    }
 
 }

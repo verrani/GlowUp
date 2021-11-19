@@ -136,6 +136,7 @@
         android:layout_marginTop="15dp"
         android:backgroundTint="#ff99de"
         android:fontFamily="@font/poppins_light"
+        android:onClick="aboutus"
         android:text="@string/about_us"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -144,7 +145,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        tools:ignore="TextContrastCheck" />
+        tools:ignore="OnClick,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
