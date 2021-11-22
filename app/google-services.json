@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86474135695",
+    "project_id": "glowupproject-93189",
+    "storage_bucket": "glowupproject-93189.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86474135695:android:db63aaac22bea57a92b8fa",
+        "android_client_info": {
+          "package_name": "com.example.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86474135695-3qtgjq8uonj8fs2ib5l5p3oqj5q2fras.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6TamhmQPplC_LqWI0cXuo56kTREZIz-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86474135695-3qtgjq8uonj8fs2ib5l5p3oqj5q2fras.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
