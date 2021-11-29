@@ -32,6 +32,8 @@ public class homepage extends AppCompatActivity {
         });
 
     }
+
+
     public void MoveLayout(View view) {
         Intent intent = new Intent(homepage.this, TipsnTricks.class);
         startActivity(intent);
