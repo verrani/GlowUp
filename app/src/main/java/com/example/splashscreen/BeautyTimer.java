@@ -1,173 +1,223 @@
 package com.example.splashscreen;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.CountDownTimer;
+import android.os.Bundle;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Handler;
-import android.view.View;
 import java.util.Locale;
-import android.widget.TextView;
-import android.os.Bundle;
 
-public class BeautyTimer extends AppCompatActivity {
+public class BeautyTimer extends AppCompatActivity{
 
-    // Use seconds, running and wasRunning respectively
-    // to record the number of seconds passed,
-    // whether the stopwatch is running and
-    // whether the stopwatch was running
-    // before the activity was paused.
+        private EditText mEditTextInput;
+        private TextView mTextViewCountDown;
+        private Button mButtonSet;
+        private Button mButtonStartPause;
+        private Button mButtonReset;
 
-    // Number of seconds displayed
-    // on the stopwatch.
-    private int seconds = 0;
+        private CountDownTimer mCountDownTimer;
 
-    // Is the stopwatch running?
-    private boolean running;
+        private boolean mTimerRunning;
 
-    private boolean wasRunning;
+        private long mStartTimeInMillis;
+        private long mTimeLeftInMillis;
+        private long mEndTime;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beauty_timer);
-        if (savedInstanceState != null) {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_beauty_timer);
 
-            // Get the previous state of the stopwatch
-            // if the activity has been
-            // destroyed and recreated.
-            seconds
-                    = savedInstanceState
-                    .getInt("seconds");
-            running
-                    = savedInstanceState
-                    .getBoolean("running");
-            wasRunning
-                    = savedInstanceState
-                    .getBoolean("wasRunning");
+            mEditTextInput = findViewById(R.id.edit_text_input);
+            mTextViewCountDown = findViewById(R.id.text_view_countdown);
+
+            mButtonSet = findViewById(R.id.button_set);
+            mButtonStartPause = findViewById(R.id.button_start_pause);
+            mButtonReset = findViewById(R.id.button_reset);
+
+            mButtonSet.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String input = mEditTextInput.getText().toString();
+                    if (input.length() == 0) {
+                        Toast.makeText(BeautyTimer.this, "Field can't be empty", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
+                    long millisInput = Long.parseLong(input) * 60000;
+                    if (millisInput == 0) {
+                        Toast.makeText(BeautyTimer.this, "Please enter a positive number", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
+                    setTime(millisInput);
+                    mEditTextInput.setText("");
+                }
+            });
+
+            mButtonStartPause.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (mTimerRunning) {
+                        pauseTimer();
+                    } else {
+                        startTimer();
+                    }
+                }
+            });
+
+            mButtonReset.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    resetTimer();
+                }
+            });
         }
-        runTimer();
-    }
 
-    // Save the state of the stopwatch
-    // if it's about to be destroyed.
-    @Override
-    public void onSaveInstanceState(
-            Bundle savedInstanceState)
-    {
-        savedInstanceState
-                .putInt("seconds", seconds);
-        savedInstanceState
-                .putBoolean("running", running);
-        savedInstanceState
-                .putBoolean("wasRunning", wasRunning);
-    }
-
-    // If the activity is paused,
-    // stop the stopwatch.
-    @Override
-    protected void onPause()
-    {
-        super.onPause();
-        wasRunning = running;
-        running = false;
-    }
-
-    // If the activity is resumed,
-    // start the stopwatch
-    // again if it was running previously.
-    @Override
-    protected void onResume()
-    {
-        super.onResume();
-        if (wasRunning) {
-            running = true;
+        private void setTime(long milliseconds) {
+            mStartTimeInMillis = milliseconds;
+            resetTimer();
+            closeKeyboard();
         }
-    }
 
-    // Start the stopwatch running
-    // when the Start button is clicked.
-    // Below method gets called
-    // when the Start button is clicked.
-    public void onClickStart(View view)
-    {
-        running = true;
-    }
+        private void startTimer() {
+            mEndTime = System.currentTimeMillis() + mTimeLeftInMillis;
 
-    // Stop the stopwatch running
-    // when the Stop button is clicked.
-    // Below method gets called
-    // when the Stop button is clicked.
-    public void onClickStop(View view)
-    {
-        running = false;
-    }
-
-    // Reset the stopwatch when
-    // the Reset button is clicked.
-    // Below method gets called
-    // when the Reset button is clicked.
-    public void onClickReset(View view)
-    {
-        running = false;
-        seconds = 0;
-    }
-
-    // Sets the NUmber of seconds on the timer.
-    // The runTimer() method uses a Handler
-    // to increment the seconds and
-    // update the text view.
-    private void runTimer()
-    {
-
-        // Get the text view.
-        final TextView timeView
-                = (TextView)findViewById(
-                R.id.time_view);
-
-        // Creates a new Handler
-        final Handler handler
-                = new Handler();
-
-        // Call the post() method,
-        // passing in a new Runnable.
-        // The post() method processes
-        // code without a delay,
-        // so the code in the Runnable
-        // will run almost immediately.
-        handler.post(new Runnable() {
-            @Override
-
-            public void run()
-            {
-                int hours = seconds / 3600;
-                int minutes = (seconds % 3600) / 60;
-                int secs = seconds % 60;
-
-                // Format the seconds into hours, minutes,
-                // and seconds.
-                String time
-                        = String
-                        .format(Locale.getDefault(),
-                                "%d:%02d:%02d", hours,
-                                minutes, secs);
-
-                // Set the text view text.
-                timeView.setText(time);
-
-                // If running is true, increment the
-                // seconds variable.
-                if (running) {
-                    seconds++;
+            mCountDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
+                @Override
+                public void onTick(long millisUntilFinished) {
+                    mTimeLeftInMillis = millisUntilFinished;
+                    updateCountDownText();
                 }
 
-                // Post the code again
-                // with a delay of 1 second.
-                handler.postDelayed(this, 1000);
+                @Override
+                public void onFinish() {
+                    mTimerRunning = false;
+                    updateWatchInterface();
+                }
+            }.start();
+
+            mTimerRunning = true;
+            updateWatchInterface();
+        }
+
+        private void pauseTimer() {
+            mCountDownTimer.cancel();
+            mTimerRunning = false;
+            updateWatchInterface();
+        }
+
+        private void resetTimer() {
+            mTimeLeftInMillis = mStartTimeInMillis;
+            updateCountDownText();
+            updateWatchInterface();
+        }
+
+        private void updateCountDownText() {
+            int hours = (int) (mTimeLeftInMillis / 1000) / 3600;
+            int minutes = (int) ((mTimeLeftInMillis / 1000) % 3600) / 60;
+            int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
+
+            String timeLeftFormatted;
+            if (hours > 0) {
+                timeLeftFormatted = String.format(Locale.getDefault(),
+                        "%d:%02d:%02d", hours, minutes, seconds);
+            } else {
+                timeLeftFormatted = String.format(Locale.getDefault(),
+                        "%02d:%02d", minutes, seconds);
             }
-        });
-    }
-    public void homepagetimer(View view) {
+
+            mTextViewCountDown.setText(timeLeftFormatted);
+        }
+
+        private void updateWatchInterface() {
+            if (mTimerRunning) {
+                mEditTextInput.setVisibility(View.INVISIBLE);
+                mButtonSet.setVisibility(View.INVISIBLE);
+                mButtonReset.setVisibility(View.INVISIBLE);
+                mButtonStartPause.setText("Pause");
+            } else {
+                mEditTextInput.setVisibility(View.VISIBLE);
+                mButtonSet.setVisibility(View.VISIBLE);
+                mButtonStartPause.setText("Start");
+
+                if (mTimeLeftInMillis < 1000) {
+                    mButtonStartPause.setVisibility(View.INVISIBLE);
+                } else {
+                    mButtonStartPause.setVisibility(View.VISIBLE);
+                }
+
+                if (mTimeLeftInMillis < mStartTimeInMillis) {
+                    mButtonReset.setVisibility(View.VISIBLE);
+                } else {
+                    mButtonReset.setVisibility(View.INVISIBLE);
+                }
+            }
+        }
+
+        private void closeKeyboard() {
+            View view = this.getCurrentFocus();
+            if (view != null) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            }
+        }
+
+        @Override
+        protected void onStop() {
+            super.onStop();
+
+            SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+            SharedPreferences.Editor editor = prefs.edit();
+
+            editor.putLong("startTimeInMillis", mStartTimeInMillis);
+            editor.putLong("millisLeft", mTimeLeftInMillis);
+            editor.putBoolean("timerRunning", mTimerRunning);
+            editor.putLong("endTime", mEndTime);
+
+            editor.apply();
+
+            if (mCountDownTimer != null) {
+                mCountDownTimer.cancel();
+            }
+        }
+
+        @Override
+        protected void onStart() {
+            super.onStart();
+
+            SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+
+            mStartTimeInMillis = prefs.getLong("startTimeInMillis", 600000);
+            mTimeLeftInMillis = prefs.getLong("millisLeft", mStartTimeInMillis);
+            mTimerRunning = prefs.getBoolean("timerRunning", false);
+
+            updateCountDownText();
+            updateWatchInterface();
+
+            if (mTimerRunning) {
+                mEndTime = prefs.getLong("endTime", 0);
+                mTimeLeftInMillis = mEndTime - System.currentTimeMillis();
+
+                if (mTimeLeftInMillis < 0) {
+                    mTimeLeftInMillis = 0;
+                    mTimerRunning = false;
+                    updateCountDownText();
+                    updateWatchInterface();
+                } else {
+                    startTimer();
+                }
+            }
+        }
+    public void homepage(View view) {
         Intent intent = new Intent(BeautyTimer.this, homepage.class);
         startActivity(intent);
     }

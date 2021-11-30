@@ -35,15 +35,23 @@
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/ids.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/orangecircle.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/drawable/yellowcircle.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_article_bodycare.xml" value="0.12182971014492754" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_beauty_calendar.xml" value="0.264" />
-        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_beauty_timer.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_beauty_timer.xml" value="0.2" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_home.xml" value="0.10364583333333334" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_homepage.xml" value="0.11503623188405797" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_playlist.xml" value="0.2" />
-        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_profile.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Users/mefah/OneDrive/Documents/GitHub/GlowUp/app/src/main/res/layout/activity_tipsn_tricks.xml" value="0.4" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
 </project>
