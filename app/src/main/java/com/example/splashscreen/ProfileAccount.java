@@ -17,7 +17,7 @@ public class ProfileAccount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        Button button_alert = findViewById(R.id.button);
+        Button button_alert = findViewById(R.id.button74);
         button_alert.setOnClickListener(view -> showDialog());
     }
 
@@ -37,7 +37,6 @@ public class ProfileAccount extends AppCompatActivity {
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }
-
     public void homepageprofile(View view) {
         Intent intent = new Intent(ProfileAccount.this, homepage.class);
         startActivity(intent);

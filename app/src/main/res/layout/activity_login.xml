@@ -59,7 +59,7 @@
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/enter_your_email_or_username"
+        android:text="Enter Your Email"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
         app:layout_constraintEnd_toEndOf="parent" />
