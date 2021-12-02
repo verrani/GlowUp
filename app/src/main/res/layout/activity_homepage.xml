@@ -10,10 +10,9 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="416dp"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="646dp"
-        android:layout_marginEnd="5dp"
+        android:layout_marginTop="661dp"
         android:background="#FFFFFF"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,8 +67,9 @@
     </LinearLayout>
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="416dp"
-        android:layout_height="646dp"
+        android:layout_height="661dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:layout_weight="1"
@@ -80,23 +80,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                
+
                 <com.synnapps.carouselview.CarouselView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    app:pageColor="#00000000"
-                    app:fillColor="#FFFFFFFF"
-                    app:slideInterval="3000"
-                    app:radius="6dp"
-                    app:strokeColor="#FF777777"
-                    app:strokeWidth="1dp"
                     android:id="@+id/carousel"
-                    />
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:fillColor="#FFFFFFFF"
+                    app:pageColor="#00000000"
+                    app:radius="6dp"
+                    app:slideInterval="3000"
+                    app:strokeColor="#FF777777"
+                    app:strokeWidth="1dp" />
 
             </RelativeLayout>
 
@@ -106,7 +105,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_light"
                 android:paddingStart="20dp"
+                android:paddingTop="30dp"
                 android:paddingEnd="20dp"
+                android:paddingBottom="10dp"
                 android:text="@string/trending_playlist"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -116,7 +117,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/reminder"
-                app:srcCompat="@drawable/imageslider"
+                android:onClick="PlaylistHomepage"
+                app:srcCompat="@drawable/trendingp"
                 tools:ignore="ImageContrastCheck" />
 
             <TextView
@@ -125,7 +127,9 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_light"
                 android:paddingStart="20dp"
+                android:paddingTop="30dp"
                 android:paddingEnd="20dp"
+                android:paddingBottom="10dp"
                 android:text="@string/newest_article"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -136,7 +140,7 @@
                 android:layout_height="200dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/new_article"
-                android:onClick="MoveLayout"
+                android:onClick="NewestArticle"
                 app:srcCompat="@drawable/makeup"
                 tools:ignore="ImageContrastCheck" />
         </LinearLayout>

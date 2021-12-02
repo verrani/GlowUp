@@ -15,6 +15,10 @@ public class Playlist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist);
     }
+    public void homepage(View view) {
+        Intent intent = new Intent(Playlist.this, homepage.class);
+        startActivity(intent);
+    }
     public void HappyVibes(View view) {
         Intent intent = new Intent(Playlist.this, HappyVibes.class);
         startActivity(intent);
@@ -27,8 +31,8 @@ public class Playlist extends AppCompatActivity {
         Intent intent = new Intent(Playlist.this, StudyMask.class);
         startActivity(intent);
     }
-    public void homepage(View view) {
-        Intent intent = new Intent(Playlist.this, homepage.class);
+    public void relax(View view) {
+        Intent intent = new Intent(Playlist.this, RelaxPlaylist.class);
         startActivity(intent);
     }
 }

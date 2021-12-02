@@ -11,23 +11,27 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="117dp"
         android:fontFamily="@font/poppins_light"
-        android:gravity="center"
+        android:gravity="center|top"
         android:text="@string/beauty_playlist_text"
         android:textColor="@color/black"
         android:textSize="26sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView22"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:onClick="homepage"
         android:text="@string/slash"
         android:textAlignment="center"
@@ -35,36 +39,37 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="OnClick" />
 
     <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="619dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="59dp"
-        android:contentDescription="@string/todo3"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="36dp"
+        android:background="#FEB0FB"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/linebar1"
-        tools:ignore="ImageContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:srcCompat="@drawable/listpink" />
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="142dp"
-        android:layout_height="413dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
         android:onClick="HappyVibes"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/happyvibes" />
 
     <TextView
@@ -72,62 +77,93 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="81dp"
+        android:layout_marginBottom="112dp"
         android:fontFamily="@font/poppins_light"
+        android:gravity="center"
         android:onClick="HappyVibes"
         android:text="Happy Vibes"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintStart_toEndOf="@+id/imageView16" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="142dp"
-        android:layout_height="414dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="104dp"
-        android:onClick="OldVibes"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="StudyMask"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/old" />
+        app:srcCompat="@drawable/studymask" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="124dp"
         android:fontFamily="@font/poppins_light"
-        android:onClick="OldVibes"
-        android:text="Old Vibes"
+        android:gravity="center"
+        android:onClick="StudyMask"
+        android:text="Study Mask"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintStart_toEndOf="@+id/imageView17" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="140dp"
-        android:layout_height="467dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="252dp"
-        android:onClick="StudyMask"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="OldVibes"
+        app:layout_constraintBottom_toTopOf="@+id/imageView21"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:srcCompat="@drawable/studymask" />
+        app:srcCompat="@drawable/old" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginBottom="112dp"
         android:fontFamily="@font/poppins_light"
-        android:onClick="StudyMask"
-        android:text="Study Mask"
+        android:gravity="center"
+        android:onClick="OldVibes"
+        android:text="1950's Vibes"
         android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintStart_toEndOf="@+id/imageView18" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="TODO"
+        android:onClick="relax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/relax" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:onClick="relax"
+        android:text="Relax Time"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView21" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

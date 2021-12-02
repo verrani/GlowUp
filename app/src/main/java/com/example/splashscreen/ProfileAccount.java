@@ -20,6 +20,10 @@ public class ProfileAccount extends AppCompatActivity {
         Button button_alert = findViewById(R.id.button74);
         button_alert.setOnClickListener(view -> showDialog());
     }
+    public void homepage(View view) {
+        Intent intent = new Intent(ProfileAccount.this, homepage.class);
+        startActivity(intent);
+    }
 
     private void showDialog(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
@@ -37,12 +41,8 @@ public class ProfileAccount extends AppCompatActivity {
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }
-    public void homepageprofile(View view) {
-        Intent intent = new Intent(ProfileAccount.this, homepage.class);
-        startActivity(intent);
-    }
     public void aboutus(View view) {
-        Intent intent = new Intent(ProfileAccount.this,AboutUs.class);
+        Intent intent = new Intent(ProfileAccount.this, AboutUs.class);
         startActivity(intent);
     }
 

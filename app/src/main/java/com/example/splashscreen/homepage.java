@@ -8,11 +8,12 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ImageClickListener;
 import com.synnapps.carouselview.ImageListener;
 
 public class homepage extends AppCompatActivity {
     private int[] mImages = new int[]{
-            R.drawable.one, R.drawable.two, R.drawable.three
+            R.drawable.carousel1, R.drawable.carousel2, R.drawable.carousel3
     };
 
 
@@ -48,6 +49,14 @@ public class homepage extends AppCompatActivity {
     }
     public void Playlist(View view) {
         Intent intent = new Intent(homepage.this, Playlist.class);
+        startActivity(intent);
+    }
+    public void PlaylistHomepage(View view) {
+        Intent intent = new Intent(homepage.this, HappyVibes.class);
+        startActivity(intent);
+    }
+    public void NewestArticle(View view) {
+        Intent intent = new Intent(homepage.this, Article.class);
         startActivity(intent);
     }
 }

@@ -56,11 +56,12 @@
         android:ems="10"
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
+        android:hint="Enter your email"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter Your Email"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -74,11 +75,12 @@
         android:ems="10"
         android:fontFamily="@font/poppins_light"
         android:gravity="center"
+        android:hint="Password"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName|textPassword"
         android:minHeight="48dp"
-        android:text="@string/password"
         android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

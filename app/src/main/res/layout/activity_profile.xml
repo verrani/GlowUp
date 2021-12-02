@@ -8,6 +8,74 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="homepage"
+        android:text="@string/slash"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/textView39"
+        android:layout_marginTop="20dp"
+        android:background="#FEB0FB"
+        android:paddingLeft="0dp"
+        android:paddingTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/listpink" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/profile_account"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="295dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#ff99de"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:text="@string/change_profile"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#4C4545"
+        android:textSize="19sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,41 +90,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.317" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/profile_account"
-        android:textAlignment="center"
-        android:textColor="#050505"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/slash"
-        android:textAlignment="center"
-        android:textColor="#757575"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:onClick="homepageprofile"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022"
-        tools:ignore="OnClick" />
+        app:layout_constraintVertical_bias="0.389" />
 
     <TextView
         android:id="@+id/textView"
@@ -72,51 +106,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="295dp"
-        android:layout_height="67dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#ff99de"
-        android:fontFamily="@font/poppins_light"
-        android:text="@string/change_profile"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#4C4545"
-        android:textSize="19sp"
-        android:textStyle="normal|bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="TextContrastCheck" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="295dp"
-        android:layout_height="67dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="26dp"
-        android:backgroundTint="#ff99de"
-        android:fontFamily="@font/poppins_light"
-        android:onClick="aboutus"
-        android:text="@string/about_us"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#4C4545"
-        android:textSize="19sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        tools:ignore="OnClick,TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.436" />
 
     <Button
         android:id="@+id/button74"
         android:layout_width="295dp"
         android:layout_height="67dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#ff99de"
         android:fontFamily="@font/poppins_light"
         android:text="Quit"
@@ -125,48 +121,40 @@
         android:textColor="#4C4545"
         android:textSize="19sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
         tools:ignore="OnClick,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginStart="164dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/profilebackground"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/avatar" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="675dp"
-        android:layout_height="12dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginBottom="59dp"
-        android:contentDescription="@string/todo2"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="295dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#ff99de"
+        android:fontFamily="@font/poppins_light"
+        android:gravity="center"
+        android:onClick="aboutus"
+        android:text="@string/about_us"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#4C4545"
+        android:textSize="19sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/linebar1"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="675dp"
-        android:layout_height="12dp"
-        android:layout_marginBottom="59dp"
-        android:contentDescription="@string/todo3"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/linebar1"
-        tools:ignore="ImageContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:ignore="OnClick,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

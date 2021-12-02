@@ -11,6 +11,34 @@
     tools:context=".article_skincare">
 
     <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:onClick="ArticleBack"
+        android:text="@string/slash"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#FEB0FB"
+        android:foregroundGravity="top|center"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/listpink"
+        tools:layout_editor_absoluteX="4dp" />
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +58,7 @@
         android:layout_width="405dp"
         android:layout_height="664dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +76,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:padding="15dp"
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
@@ -56,12 +85,13 @@
                 android:text="@string/title_article2"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="26sp" />
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:padding="13dp"
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
@@ -76,6 +106,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:text="@string/author2"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -86,9 +117,11 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:text="@string/date2"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="14sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -103,6 +136,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:padding="20dp"
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
@@ -110,34 +144,38 @@
                 android:paddingEnd="20dp"
                 android:text="@string/description2"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:text="@string/content2sub1"
                 android:textColor="#000000"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2des1"
                 android:textColor="#000000"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2sub2"
                 android:textColor="#000000"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 tools:paddingTop="5dp" />
 
@@ -154,19 +192,21 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2des2"
                 android:textColor="#000000"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2sub3"
                 android:textColor="#000000"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 tools:paddingTop="5dp" />
 
@@ -183,19 +223,21 @@
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2des3"
                 android:textColor="#000000"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2sub4"
                 android:textColor="#000000"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 tools:paddingTop="5dp" />
 
@@ -212,19 +254,21 @@
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2des4"
                 android:textColor="#000000"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2sub5"
                 android:textColor="#000000"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 tools:paddingTop="5dp" />
 
@@ -241,19 +285,21 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2des5"
                 android:textColor="#000000"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
                 android:paddingTop="5dp"
                 android:text="@string/content2des6"
                 android:textColor="#000000"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView6"
