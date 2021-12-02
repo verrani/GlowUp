@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/reminder"
                 android:onClick="PlaylistHomepage"
-                app:srcCompat="@drawable/bannerartikel"
+                app:srcCompat="@drawable/trendingp"
                 tools:ignore="ImageContrastCheck" />
 
             <TextView
@@ -141,7 +141,7 @@
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/new_article"
                 android:onClick="NewestArticle"
-                app:srcCompat="@drawable/makeup"
+                app:srcCompat="@drawable/bannerartikel"
                 tools:ignore="ImageContrastCheck" />
         </LinearLayout>
     </ScrollView>
