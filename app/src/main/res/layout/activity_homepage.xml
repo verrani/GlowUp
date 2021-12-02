@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/reminder"
                 android:onClick="PlaylistHomepage"
-                app:srcCompat="@drawable/trendingp"
+                app:srcCompat="@drawable/bannerartikel"
                 tools:ignore="ImageContrastCheck" />
 
             <TextView
