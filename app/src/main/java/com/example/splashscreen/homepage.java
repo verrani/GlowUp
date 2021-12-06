@@ -16,7 +16,9 @@ public class homepage extends AppCompatActivity {
             R.drawable.carousel1, R.drawable.carousel2, R.drawable.carousel3
     };
 
-
+    private final int[] mImagesAct = new int [] {
+            R.layout.activity_about_us, R.layout.activity_tipsn_tricks, R.layout.activity_article_haircare
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,13 @@ public class homepage extends AppCompatActivity {
             }
         });
 
+        carouselView.setImageClickListener(new ImageClickListener() {
+            @Override
+            public void onClick(int position) {
+                setContentView(mImagesAct[position]
+                );
+            }
+        });
     }
 
 
