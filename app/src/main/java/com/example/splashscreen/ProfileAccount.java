@@ -1,5 +1,6 @@
 package com.example.splashscreen;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,12 +11,16 @@ import androidx.appcompat.app.AlertDialog;
 import android.content.DialogInterface;
 import android.widget.Toast;
 
+
 public class ProfileAccount extends AppCompatActivity {
 
-    @Override
+    public ProfileAccount() {
+    }
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
 
         Button button_alert = findViewById(R.id.button74);
         button_alert.setOnClickListener(view -> showDialog());
@@ -43,6 +48,10 @@ public class ProfileAccount extends AppCompatActivity {
     }
     public void aboutus(View view) {
         Intent intent = new Intent(ProfileAccount.this, AboutUs.class);
+        startActivity(intent);
+    }
+    public void termslayout(View view) {
+        Intent intent = new Intent(ProfileAccount.this, TermsandCond.class);
         startActivity(intent);
     }
 

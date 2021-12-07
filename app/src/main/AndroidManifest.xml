@@ -54,6 +54,9 @@
             android:name=".homepage"
             android:exported="true" />
         <activity
+            android:name=".TermsandCond"
+            android:exported="true" />
+        <activity
             android:name=".ActivityLogin"
             android:exported="true" />
         <activity

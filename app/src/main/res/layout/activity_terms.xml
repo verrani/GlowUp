@@ -21,10 +21,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="56dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins_light"
-        android:text="@string/about_us_profil_account"
+        android:text="Terms and Condition"
         android:textColor="#040303"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -37,13 +37,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginTop="16dp"
+        android:onClick="profileterms"
         android:text="@string/backbutton"
-        android:onClick="profileaboutus"
         android:textColor="#050505"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -84,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:fontFamily="@font/poppins_light"
-                android:text="@string/what_is_glow_up"
+                android:text="Welcome to Glow Up!"
                 android:textAlignment="center"
                 android:textColor="#070707"
                 android:textSize="24sp"
@@ -93,8 +94,8 @@
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
-                android:layout_height="184dp"
-                android:text="@string/glow_up_is_such_a_beauty_care_application_in_smartphone_device_that_can_be_download_it_free_in_google_playstore_this_application_has_a_feature_like_a_beauty_calendar_beauty_tips_and_tricks_beauty_timer_beauty_playlists_and_journal_this_application_it_may_use_for_tall_gender_feel_free_to_register_in_this_application_also"
+                android:layout_height="101dp"
+                android:text="These terms and conditions outline the rules and regulations for the use of GlowUp Team's Application. If you have question or help, you can ask on help@glowup.com"
                 android:textColor="#8C8B8B"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -102,118 +103,88 @@
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="match_parent"
-                android:layout_height="39dp"
-                android:text="@string/developer_team_members"
+                android:layout_height="115dp"
+                android:text="By accessing this application, we assume you accept these terms and conditions. Do not continue to use GlowUp if you do not agree to take all of the terms and conditions stated on this page."
                 android:textColor="#8C8B8B"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="match_parent"
-                android:layout_height="269dp"
-                app:srcCompat="@drawable/agung" />
-
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/textView333"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/agung_ginanjar"
-                android:textAlignment="center"
-                android:textColor="#070707"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView26"
-                android:layout_width="match_parent"
-                android:layout_height="273dp"
-                app:srcCompat="@drawable/meita" />
-
-            <TextView
-                android:id="@+id/textView35"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/meita_merdianti"
-                android:textAlignment="center"
-                android:textColor="#070707"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView27"
-                android:layout_width="match_parent"
-                android:layout_height="249dp"
-                app:srcCompat="@drawable/iren" />
-
-            <TextView
-                android:id="@+id/textView36"
-                android:layout_width="match_parent"
-                android:layout_height="39dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/irine_shafana_jasmine"
-                android:textAlignment="center"
-                android:textColor="#070707"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView28"
-                android:layout_width="match_parent"
-                android:layout_height="299dp"
-                app:srcCompat="@drawable/elky" />
-
-            <TextView
-                android:id="@+id/textView37"
-                android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/muhammad_elky_fahriza"
-                android:textAlignment="center"
-                android:textColor="#070707"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView29"
-                android:layout_width="match_parent"
-                android:layout_height="261dp"
-                app:srcCompat="@drawable/verra" />
-
-            <TextView
-                android:id="@+id/textView38"
-                android:layout_width="match_parent"
-                android:layout_height="62dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/verrani_yusti_andini"
-                android:textAlignment="center"
-                android:textColor="#070707"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView40"
-                android:layout_width="match_parent"
-                android:layout_height="22dp"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/contact_us"
-                android:textAlignment="viewStart"
+                android:layout_height="158dp"
+                android:text="License:
+Unless otherwise stated, GlowUp Team and/or its licensors own the intellectual property rights for all material on GlowUp. All intellectual property rights are reserved. You may access this from GlowUp for your own personal use subjected to restrictions set in these terms and conditions."
                 android:textColor="#8C8B8B"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView41"
+                android:id="@+id/textView334"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_light"
-                android:text="@string/help_glowup_com"
-                android:textAlignment="viewStart"
+                android:layout_height="134dp"
+                android:text="You must not:
+
+Copy or republish material from GlowUp
+Sell, rent, or sub-license material from GlowUp
+Reproduce, duplicate or copy material from GlowUp
+Redistribute content from GlowUp
+This Agreement shall begin on the date hereof."
                 android:textColor="#8C8B8B"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3366"
+                android:layout_width="match_parent"
+                android:layout_height="347dp"
+                android:text="Parts of this website offer users an opportunity to post and exchange opinions and information in certain areas of the website. GlowUp Team does not filter, edit, publish or review Comments before their presence on the website. Comments do not reflect the views and opinions of GlowUp Team, its agents, and/or affiliates. Comments reflect the views and opinions of the person who posts their views and opinions. To the extent permitted by applicable laws, GlowUp Team shall not be liable for the Comments or any liability, damages, or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website."
+                android:textColor="#8C8B8B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView339"
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:text="GlowUp Team reserves the right to monitor all Comments and remove any Comments that can be considered inappropriate, offensive, or causes breach of these Terms and Conditions."
+                android:textColor="#8C8B8B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView338"
+                android:layout_width="match_parent"
+                android:layout_height="375dp"
+                android:text="You warrant and represent that:
+
+You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
+The Comments do not invade any intellectual property right, including without limitation copyright, patent, or trademark of any third party;
+The Comments do not contain any defamatory, libelous, offensive, indecent, or otherwise unlawful material, which is an invasion of privacy.
+The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
+You hereby grant GlowUp Team a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats, or media."
+                android:textColor="#8C8B8B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView337"
+                android:layout_width="match_parent"
+                android:layout_height="468dp"
+                android:text="Hyperlinking to our Content:
+The following organizations may link to our Website without prior written approval:
+
+Government agencies;
+Search engines;
+News organizations;
+Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and
+System-wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
+These organizations may link to our home page, to publications, or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement, or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party's site."
+                android:textColor="#8C8B8B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
 
         </LinearLayout>
     </ScrollView>
