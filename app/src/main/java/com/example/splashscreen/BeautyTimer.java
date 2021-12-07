@@ -1,6 +1,7 @@
 package com.example.splashscreen;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.content.SharedPreferences;
 import android.os.CountDownTimer;
 import android.os.Bundle;
@@ -22,7 +23,7 @@ public class BeautyTimer extends AppCompatActivity{
         private Button mButtonSet;
         private Button mButtonStartPause;
         private Button mButtonReset;
-
+        MediaPlayer mediaPlayer;
         private CountDownTimer mCountDownTimer;
 
         private boolean mTimerRunning;
@@ -35,7 +36,7 @@ public class BeautyTimer extends AppCompatActivity{
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_beauty_timer);
-
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.alarm);
             mEditTextInput = findViewById(R.id.edit_text_input);
             mTextViewCountDown = findViewById(R.id.text_view_countdown);
 
@@ -102,11 +103,15 @@ public class BeautyTimer extends AppCompatActivity{
                 public void onFinish() {
                     mTimerRunning = false;
                     updateWatchInterface();
+                    // Optionally, you can play a sound to indicate that the timer has
+                    // completed.
+                    if (mediaPlayer != null)
+                        mediaPlayer.start();
                 }
             }.start();
-
             mTimerRunning = true;
             updateWatchInterface();
+
         }
 
         private void pauseTimer() {
